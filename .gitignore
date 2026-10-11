@@ -47,12 +47,21 @@ agent_dev_workspace/
 # these shared folders now -- one encrypted log file, any saved plots,
 # and (agentic-pipeline/homework only) an exported report, each
 # distinguished by filename rather than by directory.
-session_logs/*.jsonl
-session_logs/*.jsonl.enc
-plots/*.png
-reports/*.md
+#session_logs/*.jsonl
+#session_logs/*.jsonl.enc
+#plots/*.png
+#reports/*.md
 
 # Local Anaconda Navigator tooling state, not course content -- created
 # automatically when this folder is opened as a project through
 # Anaconda's UI, machine-specific, never meant to be committed.
 anaconda_projects/
+
+# Local working files for the Master Questions (not for submission)
+劉俊吾_115062506_solved_master_questions.docx
+DM2026-Lab1-Master-Questions.md
+DM2026-Lab1-Master-Questions-EN.md
+.claude/CLAUDE.md
+class_powerpoint/
+# Office lock files created while a document is open
+~$*
